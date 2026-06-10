@@ -10,6 +10,7 @@ create table students (
 );
 
 
+
 -- Courses table
 create table courses (
   course_id int primary key,
