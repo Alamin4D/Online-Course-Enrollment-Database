@@ -22,6 +22,7 @@ create table courses (
 );
 
 
+
 -- Enrollments table
 create table enrollments (
   enrollment_id int primary key,
