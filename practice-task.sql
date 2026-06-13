@@ -83,6 +83,7 @@ select * from enrollments
 select * from courses
 
 
+
 -- -- Display all students and their phone numbers.
 -- If the phone number is NULL, show 'Not Provided' using COALESCE.
 select first_name, last_name, coalesce(phone, 'Not Privided') as phone from students;
